@@ -38,6 +38,16 @@ jobs:
             php: 7.1
           - laravel: 8.x
             php: 7.2
+          - laravel: 9.x
+            php: 7.0.21
+          - laravel: 9.x
+            php: 7.1
+          - laravel: 9.x
+            php: 7.2
+          - laravel: 9.x
+            php: 7.3
+          - laravel: 9.x
+            php: 7.4
 
     name: L${{ matrix.laravel }} - PHP ${{ matrix.php }} - ${{ matrix.stability }}
 
