@@ -28,9 +28,9 @@ examine "app/Providers"
 examine "app/Providers/RouteServiceProvider.php"
 examine "resources"
 
-if [ $1 = "9.x" ] || [ $1 = "10.x" ]; then
+if [ $1 = "9.x" ]; then
     examine "lang"
-else
+elif [ $1 != "10.x" ]; then
     examine "resources/lang"
 fi
 
