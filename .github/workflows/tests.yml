@@ -36,6 +36,8 @@ jobs:
             php: 7.0.21
           - laravel: 7.x
             php: 7.1
+          - laravel: 7.x
+            php: 8.1
           - laravel: 8.x
             php: 7.0.21
           - laravel: 8.x
